@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #ff7700;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #cbd5f5;
+}
+
+.content {
+  margin-bottom: 36px;
+}
+
+.highlight {
+  margin-top: 16px;
+  padding-left: 16px;
+  border-left: 4px solid #ff7700;
+  font-style: italic;
+  color: #fde68a;
+}
+
+.block {
+  margin-bottom: 40px;
+}
+
+.block h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #ffb703;
+}
+
+.block ul {
+  margin: 12px 0 16px 20px;
+}
+
+.block li {
+  margin-bottom: 8px;
+}
+
+.footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid #334155;
+  text-align: center;
+}
+
+.footer a {
+  color: #ff7700;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer small {
+  display: block;
+  margin-top: 12px;
+  color: #94a3b8;
+}
